@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link
+      rel="stylesheet"
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+    />
+    <title>Document</title>
+</head>
+<body>
+    <div class="todoList">
+    <div class="container">
+        <h1 class="title">My To Do LIST</h1>
+        <div class="head">
+            <div class="dateBlock">
+                <p class="date__item"></p>
+                <p class="date__day"></p>
+                <p class="date__clock"></p>
+            </div>
+            <div class="input__block">
+                <input type="text" placeholder="Add Task" class="input__add">
+                <button class="btn__add">Add</button>
+                <div class="buttonsBlock">
+                    <button class="del__all">Delete All</button>
+                    <button class="del__last">Delete Last</button>
+                </div>
+                <div class="result">
+                    <div class="total__amount"></div>
+                    <div class="compl__amount"></div>
+                    <div class="progress__amount"></div>
+                </div>
+            </div>
+        </div>
+        <div class="search">
+            <button class="show__complete">Show Completed</button>
+            <input type="text" class="search__item" placeholder="Search">
+            <button class="show__all">Show All</button>
+        </div>
+    <div class="todo__wrap"></div>
+    </div>
+</div>
+<script src="./ToDoList.js"></script>
+</body>
+</html>
